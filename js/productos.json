@@ -1,0 +1,62 @@
+[{
+        "codigo": 1,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 78,
+        "img": "../img/torta-cafe.jpg"
+    },
+    {
+        "codigo": 2,
+        "nombre": "Torta Feliz",
+        "presentacion": "15 porciones",
+        "precio": 68,
+        "img": "../img/torta-dama.jpg"
+    }, {
+        "codigo": 3,
+        "nombre": "Torta Bicolor",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../img/torta-bicolor.jpg"
+    },
+    {
+        "codigo": 4,
+        "nombre": "Torta Tres Leches",
+        "presentacion": "15 porciones",
+        "precio": 150,
+        "img": "../img/torta-tres-leches.jpg"
+    }, {
+        "codigo": 5,
+        "nombre": "Torta Dama",
+        "presentacion": "15 porciones",
+        "precio": 120,
+        "img": "../img/torta-feliz-feliz.jpg"
+    },
+    {
+        "codigo": 6,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 85,
+        "img": "../img/torta-maracuya-choco.jpg"
+    }, {
+        "codigo": 7,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 90,
+        "img": "../img/torta-marmol.jpg"
+    },
+    {
+        "codigo": 8,
+        "nombre": "Torta ChocoPiezas",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../img/torta-pedazo-choco.jpg"
+    }, {
+        "codigo": 9,
+        "nombre": "Torta Rose",
+        "presentacion": "15 porciones",
+        "precio": 80,
+        "img": "../img//torta-rose.jpg"
+    }
+
+
+]

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrer's</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skel.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/4a5347873d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contNav">
+            <div class="four columns">
+                <img src="img/logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="pages/productoCompra.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="pages/somos.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <a href="#"> <img src="img/cart.png" alt=""></a>
+                                <div id="carrito">
+                                    <p class="vacio">ELIJE TU PRODUCTO</p>
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Producto</th>
+                                                <th>Precio</th>
+                                                <th>Borrar</th>
+                                            </tr>
+
+                                        </thead>
+                                        <tbody>
+
+                                        </tbody>
+                                    </table>
+                                    <p class="text-right">Total: <span id="total"></span>&euro;</p>
+
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Borrar</a>
+                                    <a href="#" id="fin-compra" class="button u-full-width">Finalizar Compra</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="hero">
+
+        <div class="contenidoBuscador">
+            <div class="contenido-hero">
+                <h2>ELIJE TU PEDIDO</h2>
+                <p>Todo producto de muy buena calidad!</p>
+                <form>
+                    <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                    <input type="submit" class="submit-buscador">
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Variedad de postres y </p>
+                    <p> explora los nuevos sabore</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Creaciones artesanales</p>
+                    <p>con sabores unicos</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Premiamos tu preferencia</p>
+                    <p>con regalos y descuentos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="lista-platillos" class="container">
+
+        <h1 class="encabezado">LO MAS VENDIDO</h1>
+        <div class="row">
+            <div id="divProductoSemana">
+            </div>
+        </div>
+        <h1 class="encabezado">EVENTOS REALIZADOS</h1>
+        <section>
+            <div>
+                <h2>Cumpleaños</h2>
+                <img src="img/evento1.jpg">
+            </div>
+            <div>
+                <h2>Bodas</h2>
+                <img src="img/evento3.jpeg">
+            </div>
+            <div>
+                <h2>Buffet</h2>
+                <img src="img/evento2.jpeg">
+            </div>
+        </section>
+
+    </div>
+
+
+    <footer>
+        <div class="social">
+            <div class="descripcionFooter">
+                <div class="contacto">
+                    <h3>Contacto</h3>
+                    <p>Ponerse en contacto con:</p>
+                    <p>+51 9222-355-658</p>
+                    <p>Lunes-Sábado 9:00am-5:00pm</p>
+                    <p> Martes-Viernes 9:00am-5:00pm</p>
+                    <p>Sábado 9:00 am-5:00 pm</p>
+                </div>
+                <div class="politica">
+                    <h3>Politica</h3>
+                    <p>Terminos y condiciones</p>
+                    <p>Acerda de</p>
+                    <p>Delivery</p>
+                </div>
+            </div>
+
+            <p>Todos los derechos reservados © 2022 por Janet Ferrer SAC.</p>
+
+            <a class="social-icon " data-tooltip="Facebook " href="# ">
+                <i class="fa-brands fa-facebook "></i>
+            </a>
+            <a class="social-icon " data-tooltip="YouTube " href="# ">
+                <i class="fa-brands fa-youtube "></i>
+            </a>
+            <a class="social-icon " data-tooltip="YouTube " href="# ">
+                <i class="fa-brands fa-instagram "></i>
+            </a>
+            <a class="social-icon " data-tooltip="YouTube " href="# ">
+                <i class="fa-brands fa-whatsapp "></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="js/listandoProductos.js"></script>
+</body>
+
+</html>

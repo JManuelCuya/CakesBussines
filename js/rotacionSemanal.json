@@ -1,0 +1,42 @@
+[{
+        "codigo": 2,
+        "nombre": "Torta Feliz",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../img/torta-dama.jpg"
+    }, {
+        "codigo": 3,
+        "nombre": "Torta Bicolor",
+        "presentacion": "15 porciones",
+        "precio": 80,
+        "img": "../img/torta-bicolor.jpg"
+    },
+    {
+        "codigo": 4,
+        "nombre": "Torta Tres Leches",
+        "presentacion": "15 porciones",
+        "precio": 90,
+        "img": "../img/torta-tres-leches.jpg"
+    }, {
+        "codigo": 5,
+        "nombre": "Torta Fresas",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../img/torta-feliz-feliz.jpg"
+    },
+    {
+        "codigo": 6,
+        "nombre": "Torta Calida",
+        "presentacion": "15 porciones",
+        "precio": 120,
+        "img": "../img/torta-maracuya-choco.jpg"
+    }, {
+        "codigo": 7,
+        "nombre": "Torta Maracuya",
+        "presentacion": "15 porciones",
+        "precio": 80,
+        "img": "../img/torta-marmol.jpg"
+    }
+
+
+]
