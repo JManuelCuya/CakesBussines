@@ -4,7 +4,7 @@ let mostrarCompra = document.getElementById("mostrar-compra");
 let divEventos = document.getElementById("divEventos")
 
 async function cargarProductos() {
-    let promesa = await fetch('/js/productos.json')
+    let promesa = await fetch('../js/productos.json')
     let productosJSON = await promesa.json()
     return productosJSON
 }
@@ -23,7 +23,7 @@ cargarProductos().then(data => {
         divProductos.innerHTML += `
     <div class="four columns">
     <div class="card">
-       <img src="/img/${producto.img}" alt="${producto.nombre}">
+       <img src="../img/${producto.img}" alt="${producto.nombre}">
         <div class="info-card">
             <h4>${producto.nombre}</h4>
             <p>${producto.presentacion}</p>
