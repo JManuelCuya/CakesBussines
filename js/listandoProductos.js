@@ -27,7 +27,7 @@ cargarProductos().then(data => {
         <div class="info-card">
             <h4>${producto.nombre}</h4>
             <p>${producto.presentacion}</p>
-            <img src="/img/estrellas.png">
+            <img src="../img/estrellas.png">
             <p class="precio">S/. ${producto.precio}</p>
             <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
         </div>
