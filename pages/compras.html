@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/skel.css">
     <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/form.css">
 </head>
 
 <body>
@@ -30,6 +31,9 @@
                     </li>
                     <li>
                         <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="compras.html">Reservas</a>
                     </li>
                 </ul>
             </nav>
@@ -89,6 +93,34 @@
 
 
 
+    <main class="mainForm">
+        <div class="containers">
+            <div class="contact-box">
+                <div class="left2"></div>
+                <div class="right">
+                    <form id="formCli">
+                        <h2>Registro de eventos</h2>
+                        <input id="nombre" type="text" class="field" placeholder="Your Name">
+                        <input id="apellido" type="text" class="field" placeholder="Your Email">
+                        <input id="telefono" type="text" class="field" placeholder="Phone">
+                        <input id="email" type="text" class="field" placeholder="Phone">
+                        <button type="submit" class="btn btn-secondary">
+                            Registrarse     
+                        </button>
+                    </form>
+                    <button type="submit" id="botonClientes" class="btn btn-dark"> Muestra tus datos</button>
+                    <div id="divClientes" class="row"></div>
+                </div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+
+
+    </main>
 
 
 
@@ -127,8 +159,8 @@
             </a>
         </div>
 
-        <script src="js/funciones.js"></script>
-        <script src="js/listandoProductos.js"></script>
+
+        <script src="/js/registroEventos.js"></script>
 </body>
 
 </html>

@@ -3,6 +3,7 @@ const platillos = document.getElementById("lista-platillos");
 const listaPlatillos = document.querySelector("#lista-carrito tbody");
 const vaciarCarritoBtn = document.getElementById("vaciar-carrito");
 
+
 cargarEventListeners();
 
 function cargarEventListeners() {
@@ -19,20 +20,21 @@ function comprarPlatillo(e) {
         leerDatosPlatillo(platillo);
     }
 }
-
+//Aqui agragamos los datos al carrito a la espera de confirmar la compra
 function leerDatosPlatillo(platillo) {
     const infoPlatillo = {
         imagen: platillo.querySelector('img').src,
         titulo: platillo.querySelector('h4').textContent,
         precio: platillo.querySelector('.precio').textContent,
+        cantidad: 1,
         id: platillo.querySelector('a').getAttribute('data-id')
     }
 
     insertarCarrito(infoPlatillo);
 }
 
-function AplicarOferta() {}
 
+//insertamos datos al carrito
 function insertarCarrito(platillo) {
     const row = document.createElement('tr');
     row.innerHTML = `
@@ -41,14 +43,19 @@ function insertarCarrito(platillo) {
        </td> 
        <td>${platillo.titulo}</td>
        <td>${platillo.precio}</td>
+       <td>${platillo.cantidad}</td>
        <td>
         <a href="#" class="borrar-platillo" data-id="${platillo.id}">X</a>
        </td>
     `;
+
     listaPlatillos.appendChild(row);
     guardarPlatilloLocalStorage(platillo);
 }
 
+
+
+//ELiminamos producto
 function eliminarPlatillo(e) {
     e.preventDefault();
 
@@ -63,6 +70,7 @@ function eliminarPlatillo(e) {
     eliminarPlatilloLocalStorage(platilloId)
 }
 
+//Vaciamos el carrito
 function vaciarCarrito() {
     while (listaPlatillos.firstChild) {
         listaPlatillos.removeChild(listaPlatillos.firstChild);
@@ -72,6 +80,8 @@ function vaciarCarrito() {
     return false;
 }
 
+
+//Guardamos el carrito
 function guardarPlatilloLocalStorage(platillo) {
     let platillos;
 
@@ -81,6 +91,7 @@ function guardarPlatilloLocalStorage(platillo) {
     localStorage.setItem('platillos', JSON.stringify(platillos));
 }
 
+//obtenemos el platillo 
 function obtenerPlatillosLocalStorage() {
     let platillosLS;
 
@@ -105,6 +116,7 @@ function leerLocalStorage() {
             </td>
             <td>${platillo.titulo}</td>
             <td>${platillo.precio}</td>
+            <td>${platillo.cantidad}</td>
             <td>
                 <a href="#" class="borrar-platillo" data-id="${platillo.id}">X</a>
             </td>

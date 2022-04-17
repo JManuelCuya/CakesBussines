@@ -159,12 +159,7 @@ ul {
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.05);
     background: #1d2124;
-}
-
-@media (min-width:550px) {
-    .card {
-        text-align: left;
-    }
+    padding: 20px;
 }
 
 .info-card {

@@ -146,11 +146,8 @@ ul {
 .card {
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.05);
-  background: #1d2124; }
-
-@media (min-width: 550px) {
-  .card {
-    text-align: left; } }
+  background: #1d2124;
+  padding: 20px; }
 
 .info-card {
   padding: 10px 20px;
@@ -174,10 +171,16 @@ ul {
     color: white; }
 
 section {
-  width: 80%; }
-  section div {
-    text-align: center; }
-    section div h2 {
+  width: 100%;
+  margin-bottom: 20px; }
+  section div div {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin: auto; }
+    section div div img {
+      width: 100%; }
+    section div div h2 {
       color: white; }
 
 .contenidoBuscador {

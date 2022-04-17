@@ -47,6 +47,12 @@
     height: 100%;
 }
 
+.left2 {
+    background: url("/img/eventos.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
 .right {
     padding: 25px 40px;
 }

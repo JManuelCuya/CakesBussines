@@ -8,11 +8,20 @@
 }
 
 section {
-    width: 80%;
+    width: 100%;
+    margin-bottom: 20px;
     div {
-        text-align: center;
-        h2 {
-            color: white;
+        div {
+            text-align: center;
+            padding: 20px;
+            display: inline-block;
+            margin: auto;
+            img {
+                width: 100%;
+            }
+            h2 {
+                color: white;
+            }
         }
     }
 }
