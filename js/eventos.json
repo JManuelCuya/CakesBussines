@@ -2,17 +2,17 @@
         "codigo": 1,
         "nombre": "Cumpleaños",
         "precio": 150,
-        "img": "../img/Evento1.jpg"
+        "img": "../img/evento1.jpg"
     },
     {
         "codigo": 2,
         "nombre": "Buffet",
         "precio": 600,
-        "img": "../img/Evento2.jpg"
+        "img": "../img/evento2.jpg"
     }, {
         "codigo": 3,
         "nombre": "Boda",
         "precio": 250,
-        "img": "../img/Evento2.jpg"
+        "img": "../img/evento2.jpg"
     }
 ]
